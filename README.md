@@ -12,8 +12,8 @@ This project aims to synchronize ECG (Electrocardiogram) and PPG (Photoplethysmo
 
 ## Project Structure
 - 1.Preprocessing of ECG and PPG Signals
-- Apply filtering to remove noise and artifacts.
-- Use appropriate cutoff frequencies for both ECG and PPG signals.
+ Apply filtering to remove noise and artifacts.
+ Use appropriate cutoff frequencies for both ECG and PPG signals.
 
 - 2.Peak Detection
 - Detect peaks in the filtered signals.
