@@ -10,24 +10,24 @@ To analyze blood pressure or other metrics later, we need raw data. This data mu
 Overview
 This project aims to synchronize ECG (Electrocardiogram) and PPG (Photoplethysmogram) signals, evaluate the quality of the PPG signals, and rank them based on their signal quality. The synchronization process ensures that the signals are aligned for accurate comparison, and the evaluation metrics help in identifying the best quality PPG signal.
 
-## Project Structure
-- 1.Preprocessing of ECG and PPG Signals
- Apply filtering to remove noise and artifacts.
- Use appropriate cutoff frequencies for both ECG and PPG signals.
+# Project Structure
+## 1.Preprocessing of ECG and PPG Signals
+- Apply filtering to remove noise and artifacts.
+- Use appropriate cutoff frequencies for both ECG and PPG signals.
 
-- 2.Peak Detection
+## 2.Peak Detection
 - Detect peaks in the filtered signals.
 - Peaks indicate heartbeats and are used for signal alignment.
 
-- 3.Signal Synchronization
+## 3.Signal Synchronization
 - Align ECG and PPG signals from their starting points.
 - Resample ECG signals to match the length of PPG signals.
 
-- 4.Evaluation of PPG Signals
+## 4.Evaluation of PPG Signals
 - Calculate Signal-to-Noise Ratio (SNR).
 - Assess peak prominence and variability.
 - Combine these metrics to rank the signals.
 
-- 5.Visualization
+## 5.Visualization
 - Plot synchronized signals.
 - Focus on specific ranges to compare signal quality.
